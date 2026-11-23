@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Diag.net Comment Unhider",
+  "version": "1.0.0",
+  "description": "Automatically unhides comments on diag.net pages.",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "diag-comments-unhider@local",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://diag.net/*",
+        "https://www.diag.net/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
