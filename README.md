@@ -7,6 +7,7 @@ What it does
 - Also watches for dynamically inserted comments or elements that receive the class later.
 
 How to get it
+
 [Firefox Add-on](https://addons.mozilla.org/en-CA/firefox/addon/diag-net-comment-unhider/)
 
 Manually install temporarily in Firefox
