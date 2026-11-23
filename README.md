@@ -7,7 +7,7 @@ What it does
 - Also watches for dynamically inserted comments or elements that receive the class later.
 
 Install temporarily in Firefox
-1. Download and extract the (latest release)[https://github.com/syst3mboot/diagnet-comment-unhider/releases]
+1. Download and extract the [latest release](https://github.com/syst3mboot/diagnet-comment-unhider/releases)
 2. Open the url `about:debugging#/runtime/this-firefox` inside your Firefox browser
 3. Click “Load Temporary Add-on…”
 4. Select the `manifest.json` file from the extracted release files.
